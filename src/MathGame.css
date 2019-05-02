@@ -1,0 +1,67 @@
+button {
+  border: none;
+  background: none;
+}
+
+button[active] {
+  color: green;
+}
+
+.MathGame {
+  margin: auto;
+  text-align: center;
+}
+
+.operand {
+  color: blue;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.result {
+  margin: 20px;
+}
+
+.levelOption {
+  font-size: 20px;
+  color: orange;
+  margin: 10px;
+  margin-top: 0;
+}
+
+.operator {
+  font-size: 30px;
+  color: blue;
+}
+
+.operatorOption {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#result {
+  font-size: 30px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid orange;
+  width: 120px;
+}
+
+.navButton {
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+success {
+  color: Orange;
+}
