@@ -1,10 +1,17 @@
 button {
-  border: none;
   background: none;
+  border: none;
+  padding: 10px;
 }
 
 button[active] {
   color: green;
+}
+
+.active {
+  background-color: yellow;
+  border: 1px solid green;
+  border-radius: 5px;
 }
 
 .MathGame {
@@ -16,7 +23,6 @@ button[active] {
   color: blue;
   height: 60px;
   font-size: 30px;
-  border-radius: 5px;
 }
 
 .result {
@@ -25,7 +31,7 @@ button[active] {
 
 .levelOption {
   font-size: 20px;
-  color: orange;
+  color: blue;
   margin: 10px;
   margin-top: 0;
 }
@@ -39,12 +45,12 @@ button[active] {
   width: 60px;
   height: 60px;
   font-size: 30px;
-  background-color: blue;
-  color: white;
+  color: blue;
   margin-left: 10px;
   margin-right: 10px;
   padding: 0;
   border-radius: 5px;
+  border: 1px solid green;
 }
 
 #result {
@@ -60,6 +66,7 @@ button[active] {
   margin: 10px;
   border-radius: 5px;
   border: 1px solid;
+  width: 90px;
 }
 
 success {
